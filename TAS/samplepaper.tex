@@ -5,6 +5,8 @@
 \documentclass[runningheads]{llncs}
 %
 \usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{url}
 % Used for displaying a sample figure. If possible, figure files should
 % be included in EPS format.
 %
@@ -20,7 +22,7 @@
      \vspace{2cm}
     {\scshape\large SOEN6841 : Topic Analysis and Synthesis Report \par}
     \vspace{1.5cm}
-    {\scshape\Huge How do I establish control initially when my project is huge?\par}
+    {\scshape\Huge Establish control initially when my project is huge\par}
     \vspace{1.5cm}
     \vspace{1.5cm}
     {\large Advisor: Professor Pankaj Kamthan\par}
@@ -30,227 +32,232 @@
     {\large \today\par}
 \end{titlepage}
 
-\setcounter{tocdepth}{2}
+\setcounter{tocdepth}{3}
+\setcounter{secnumdepth}{3}
 \tableofcontents
 \newpage
 
 
 \section*{Abstract}
+This report investigates strategies for establishing initial control in large-scale projects, addressing challenges posed by their complexity and scope. Focusing on strategic decomposition, project planning, and communication strategies, the research explores how these elements contribute to effective control mechanisms. Key findings highlight the pivotal role of decomposition in fostering collaboration, the significance of initiation and planning phases, and the impact of communication on employee performance. The report proposes an evaluation framework for software project initiation, offering a structured approach to assess and improve initiation processes. Overall, it provides actionable insights for project managers navigating the intricacies of managing extensive projects.
 \newpage
 
 \section{Introduction}
 
 
 \subsection{Problem Statement}
-Large scale projects pose unique set of challenges, demanding meticulous attention to initial control measures. As projects scale in complexity and scope, establishing effective control mechanisms at the outset becomes a critical concern. This report explores the topic of "How to establish control initially when my project is huge". The magnitude of tasks, resource allocation, and intricate interdependencies can overwhelm traditional project management approaches, necessitating a comprehensive understanding of the factors influencing initial control. This analysis seeks to explore the specific hurdles faced when dealing with vast projects, aiming to identify strategies, frameworks, and best practices that empower project managers to establish robust control mechanisms from the project's inception.
+Large scale projects pose unique set of challenges, demanding attention to initial control measures. As projects scale in complexity and scope, establishing effective control mechanisms at the outset becomes a critical concern. This report explores the topic of "How to establish control initially when my project is huge". The magnitude of tasks, resource allocation, and intricate interdependencies can overwhelm traditional project management approaches, necessitating a comprehensive understanding of the factors influencing initial control. This analysis seeks to explore the specific hurdles faced when dealing with vast projects, aiming to identify strategies, frameworks, and best practices that empower project managers to establish robust control mechanisms from the project's inception.
 
 
 \subsection{Motivation}
 
-In navigating the complexities of large-scale projects, the pivotal role of decomposition cannot be overstated. The initial stages demand a strategic breakdown of the project into manageable components, for clarity and control. Effective leadership is crucial in steering the initiation and planning phases, setting the tone for program control. The planning process becomes key, particularly in addressing interproject dependencies, providing a structured framework for effective management. Communication strategies and robust infrastructure emerge as lifelines, essential for managing interactions and sustaining control in the dynamic landscape of large programs. This analysis aims to uncover the role of these elements in establishing control within expansive project landscapes.
+In navigating the complexities of large-scale projects, the pivotal role of decomposition cannot be overstated. The initial stages demand a strategic breakdown of the project into manageable components, for clarity and control. Effective leadership is crucial in steering the initiation and planning phases, setting the tone for program control. The planning process becomes key, particularly in addressing dependencies, providing a structured framework for effective management. Communication strategies and robust infrastructure emerge as lifelines, essential for managing interactions and sustaining control in the dynamic landscape of large programs. This analysis aims to uncover the role of these elements in establishing control within expansive project landscapes.
 
+
+\subsection{Research Question}
+\begin{itemize}[label=$\bullet$]
+    \item How to strategically decompose a large project ? 
+    \item What are different way to plan a project ?
+    \item How can effective communication help in large scale projects?
+\end{itemize}
 
 \subsection{Objective}
 
-\begin{itemize}
+\begin{itemize}[label=$\bullet$]
     \item \textbf{Decomposition of Project:}
     Investigate how the strategic decomposition of large projects contributes to establishing effective control mechanisms in the initial stages.
-
     
-    \item \textbf{Importance of Leadership:}
-    Examine the significance of leadership in the initiation and planning phases of large programs and its impact on ensuring effective control.
+    \item \textbf{Project Planning Methods:}
+    Explore different methods of project planning for better control, with a focus on managing dependencies within the intricate landscape of large-scale endeavors.
 
-    
-    \item \textbf{Role of Project Planning :}
-    Explore the contribution of project planning to program control, with a focus on managing interproject dependencies within the intricate landscape of large-scale endeavors.
-
-    
-    \item \textbf{Communication Strategies :}
-    Evaluate essential communication strategies and infrastructure necessary for managing interactions and maintaining control in the dynamic environment of large programs.
+    \item \textbf{Effective Communication Strategies :}
+    Evaluate essential communication strategies for managing interactions and maintaining control in the dynamic environment of large programs.
 \end{itemize}
 
 
-\section{Background Material}
+\section{Methods and Methodology}
 
 
-The successful execution of large-scale projects poses a formidable challenge, demanding high degree of planning and effective control mechanisms. The initial stages of such endeavors are particularly critical, requiring a strategic approach to establish control and set the trajectory for success. This analysis delves into the pivotal role of project decomposition in this context. By breaking down a mammoth project into manageable components, organizations can foster better control mechanisms, allowing for detailed planning, resource allocation, and risk mitigation.
+\subsection{Decomposing Big Projects}
+Decomposition is pivotal in managing large-scale software projects, serving as a systematic approach to break down complex systems into manageable components. This process enhances development efficiency by fostering parallelism, enabling teams to work concurrently on distinct modules. Through decomposition, intricate tasks are subdivided into smaller, more comprehensible units, facilitating better coordination and collaboration among team members.
 
-Leadership emerges as a linchpin in the initiation and planning of large programs. Effective leaders set the tone for the entire project life cycle, guiding teams through complexities and instilling a sense of direction. Their decisions during the initial phases significantly influence the project's overall success, emphasizing the need for adept leadership in navigating uncertainties and ensuring a cohesive approach.
 
-Furthermore, this analysis explores how the planning process itself becomes a cornerstone for program control, especially concerning managing interproject dependencies. A well-structured plan not only identifies these dependencies but also outlines strategies for their effective management, ensuring that one project's progress does not impede another's.
+\subsubsection{Work Breakdown Structure}\mbox{}\\
+A work breakdown structure (WBS) is a hierarchical decomposition of a project into smaller, more manageable components. It is a tool used by project managers to define and organize the project's scope of work, and to break it down into smaller, more manageable tasks. The WBS helps to ensure that all project work is accounted for, and that each task is assigned to the appropriate team member or organizational unit. It is an essential tool for effective project planning, execution, and control\cite{wbs}.
 
-In the realm of communication, this analysis scrutinizes the essential strategies and infrastructure required for managing interactions and maintaining control in large programs. Effective communication channels and protocols play a crucial role in disseminating information, fostering collaboration, and promptly addressing challenges, all of which are pivotal in maintaining control in the dynamic environment of extensive projects. This exploration aims to provide insights and actionable strategies for organizations seeking to establish control in the labyrinth of large-scale programs.
+\begin{itemize}[label=$\bullet$]
+    \item \textbf{Identify Project Phases: }
+    Break down the software project into distinct phases or stages. Common phases might include requirements analysis, design, implementation, testing, and deployment. Each phase represents a major milestone in the project's life cycle.\\
 
-\section{Problem Statement}
+    \item \textbf{Define Major Tasks within Each Phase:}
+    For each identified phase, further decompose the work into major tasks or activities. For example, within the implementation phase, tasks may include coding, unit testing, and integration testing. Assign specific responsibilities to each task and define their dependencies.\\
 
-\begin{itemize}
-  \item How can the decomposition of big projects contribute to establishing control in the initial stages?
 
-The paper discusses the challenges of managing complex design projects and the need for new tools and techniques to aid design managers in making decisions that can reduce the time and cost of a design cycle. As a design manager myself, I can relate to the challenges highlighted in the paper and the need for new tools and techniques to improve the design process.
+    \item \textbf{Create SubTasks and Work Packages:}
+    Break down major tasks into smaller, manageable sub-tasks or work packages. These should represent specific actions or deliverables that contribute to the completion of the major task. Ensure that each sub-task is well-defined, measurable, and has clear criteria for completion.\\
 
-The paper introduces DeMAID, a tool that was initially released in 1989, and its use in the decision-making process. The tool is designed to aid in the intelligent decomposition of a complex design problem. Since its release, much research has been done in the areas of decomposition, concurrent engineering, and process management, leading to the development of many new tools and techniques.
-
-As a design manager, I am always looking for ways to optimize the design process and reduce the time and cost of a design cycle. The paper highlights the use of graph theory in process-management problems and the network-based approaches, including the PERT and the critical path method. These approaches can be used to reduce the complexity of numerous processes that are dependent on one another.
-
-The paper then goes on to discuss the enhancements made to DeMAID, including the use of a genetic algorithm (GA). The GA is used to optimize the decomposition process by selecting the best decomposition strategy for a given design problem. As a design manager, I am always looking for ways to optimize the design process, and the use of a GA to minimize cost and time in a design cycle is an exciting development.
-
-The paper provides an example of how these enhancements can be applied to improve the design cycle, using an aircraft conceptual design project as an example. The paper explains how the GA was used to optimize the decomposition process, resulting in a significant reduction in the time and cost of the design cycle. As a design manager, I can see the potential of these tools and techniques to revolutionize the design process and improve the efficiency of the design cycle.
-
-In conclusion, the paper highlights the importance of managing complex design projects and the need for new tools and techniques to aid design managers in making decisions that can reduce the time and cost of a design cycle. As a design manager, I can relate to the challenges highlighted in the paper and the need for new tools and techniques to improve the design process. The paper introduces DeMAID and its enhancements, including the use of a genetic algorithm, and provides an example of how these enhancements can be applied to improve the design cycle. The paper provides valuable insights into the use of these tools and techniques and their potential to revolutionize the design process. As a design manager, I am excited about the potential of these tools and techniques to improve the efficiency of the design cycle and reduce the time and cost of a design project.\cite{ref1}
-
--------------
-This research paper proposes a process for defining the necessary structure to reach project objectives and deliver final results. The authors, Julie Stal-Le Cardinal and Franck Marle, argue that building a correct project structure is achievable and gives more guarantee for success, while a bad structure is a guarantee for failure. They suggest that formalizing and managing the project structure definition process is feasible using innovative concepts and tools, such as interactions management, decomposition process, and resource assignment process.
-
-The paper is divided into three parts. Part 1 describes the proposed process, including its inputs, tools, and methods. Part 2 focuses on the inputs of the process, such as the initial situation, objectives, and environment, and presents research proposals on environment management. Part 3 presents research proposals on tools and methods, specifically on the topics of scope and activity definition and resource assignment. The authors provide concrete examples from their work with VALLOUREC and PSA PEUGEOT CITROEN.
-
-The methodology used in this paper is based on a literature review of existing research on project management, as well as the authors' own experience and research. The authors also draw on their work with VALLOUREC and PSA PEUGEOT CITROEN to provide practical examples of the proposed process and tools. Overall, the paper provides a comprehensive framework for managing projects and designing project structures that can help ensure success. \cite{ref2}
-
-  
-  \item \textbf{What role does leadership play in initiating and planning large programs for effective control?}
-  \item How does the planning process contribute to program control, especially in the context of managing interproject dependencies?
-  \item What communication strategies and infrastructure are essential for managing interactions and maintaining control in a large program?
+    \item \textbf{Assign Resources and Schedule:}
+    Allocate resources (human, technological, and other necessary resources) to each work package. Create a timeline or schedule for the project by estimating the duration of each task and identifying dependencies between tasks. This helps in creating a realistic project timeline and managing resource allocation effectively.
+        
 \end{itemize}
 
-\subsection{Project Planning}
+\subsubsection{Component based project breakdown in PRINCE2}\mbox{}\\
+In PRINCE2 (PRojects IN Controlled Environments)\ref{prince}, a project is broken down into several components using a structured approach. The key elements of project breakdown in PRINCE2 include:
 
-Project management in the context of large-scale endeavors is a complex and challenging undertaking that requires a strategic approach from the very beginning. The initial steps in establishing control over a massive project involve meticulous Project Planning. This phase marks the inception of the project management life cycle, where the business problem or opportunity is identified, and a comprehensive solution is outlined. A crucial component of this stage is the creation of a business case, which serves as a detailed roadmap, encompassing problem statements, alternative solutions, cost-benefit analysis, and implementation plans. The approval of the business case triggers the transition to the planning phase, emphasizing the significance of having a clear understanding of the project's objectives. Without a well-defined plan, projects risk deviating from their intended course, leading to misunderstandings and potential failures. Establishing clear objectives is akin to a compass guiding the project towards success, ensuring that everyone involved shares a unified vision.
+\begin{itemize}[label=$\bullet$]
+    \item \textbf{Project Management Team:}  
+    PRINCE2 defines clear roles and responsibilities for individuals involved in the project. The project management team is typically composed of roles such as the Project Manager, Project Board, Team Manager, and Project Support. This establishes a hierarchy of accountability and ensures that each aspect of the project is overseen by the appropriate authority.\\
 
-\subsection{Project Decomposition}
+    \item \textbf{Processes:}
+    PRINCE2 organizes project management into a set of processes, each representing a set of activities to be carried out during the project's lifecycle\cite{prince2}. These processes are:\\
 
-Once the project plan is in place, the next pivotal factor is Project Decomposition. This involves breaking down the colossal project into smaller, more manageable components. Whether it's subdividing tasks or disassembling a large product into smaller parts, decomposition project management enhances manageability and facilitates improved communication and coordination among team members. Unlike traditional linear project management models, which may become unwieldy as complexity grows, decomposition takes a flexible approach. It breaks the project into smaller, independent pieces, allowing for greater adaptability and a comprehensive understanding of the project's entirety. The process involves establishing the big picture, defining major objectives, breaking them into manageable chunks, and creating a work breakdown structure. This systematic breakdown not only eases the workload but also enables better error identification and rectification as each component is assessed independently.
+        \begin{enumerate}
+            \item \textbf{Starting up a Project (SU)}: Ensures that the project is viable and worthwhile.
+            \item \textbf{Initiating a Project (IP)}: Defines the project's scope, objectives, and approach.
+            \item \textbf{Directing a Project (DP)}: The high-level decision-making process involving the Project Board.
+            \item \textbf{Controlling a Stage (CS)}: Manages each stage of the project and ensures that work is progressing according to plans.
+            \item \textbf{Managing Product Delivery (MP)}: Ensures that work packages are developed and delivered effectively.
+            \item \textbf{Managing a Stage Boundary (SB)}: Prepares for the next stage, ensuring that the Project Plan is updated.
+            \item \textbf{Closing a Project (CP)}: Formalizes project closure, assesses its success, and learns lessons for future projects.\\
+        \end{enumerate}
 
-\subsection{Effective Communication}
-
-In the realm of project management, where intricate tasks and numerous responsibilities coalesce, Effective Communication emerges as the linchpin for success. Communication is not merely a peripheral aspect but an integral component that ensures everyone involved comprehends the project's goals and responsibilities. In the vast landscape of project management, effective communication skills wield immense power. A project manager, regardless of the project's scale, must articulate their vision clearly, ensuring it resonates with the entire team. In larger companies, where projects span multiple departments, communication becomes even more critical. The project manager must not only convey their vision for a specific segment but also collaborate with other managers to ensure the seamless completion of the overarching project. The significance of communication lies not only in transmitting vital information but also in cultivating a shared vision among team members. It involves clearly defining project goals, ensuring understanding among team members, and outlining performance expectations. Active communication methods, such as in-person meetings, video conferencing, and webinars, become invaluable tools for fostering a collaborative and informed project environment. Tailoring communication methods to the project's specific needs ensures that everyone involved receives information in a manner that suits them best.
-
-% In essence, project management is a multifaceted discipline that demands a holistic approach. Beyond effective communication, successful project managers possess a diverse set of skills. These encompass the ability to connect tasks to the bigger picture, prioritize goals, maintain an agile mindset, and react adeptly to change. While basic communication skills are essential, they are only one facet of a project manager's repertoire. The value of project management to companies is evident in its capacity to enhance organizational efficiency, save costs, align projects with company needs, and provide a competitive edge. Aspiring project managers can develop these skills through comprehensive programs such as the online Master of Communication Management (MCM), which not only hones communication abilities but also instills a strategic, holistic approach to project management. In the dynamic landscape of large projects, the combination of effective planning, meticulous decomposition, and clear communication emerges as the trinity that propels success.
-
-
-
-
-
-
-\section{Motivation}
-Understanding how to control a project from the outset is paramount, especially when dealing with substantial endeavors. A massive project brings with it a multitude of complexities and intricacies that, if not managed effectively, can lead to significant challenges. Project control involves the systematic oversight and coordination of various elements, ensuring that the project stays on course and aligns with its objectives. In the early stages of a large project, establishing control mechanisms is like putting a solid foundation in place; it provides stability and sets the tone for the entire project lifecycle.
-
-One primary reason for emphasizing control in the initial phases is the prevention of scope creep. In a large project, the scope, or the defined boundaries of what the project aims to achieve, can easily expand beyond the original plan. Without proper control mechanisms, additional features or requirements might be introduced, leading to increased costs, delayed timelines, and potential resource strain. Control allows project managers to delineate and communicate the project's scope clearly, creating a framework that helps prevent unnecessary deviations.
-
-Furthermore, control is essential for resource allocation and utilization. In substantial projects, various resources, including human, financial, and technological, are at play. Efficient control ensures that these resources are allocated optimally, avoiding overloading specific areas while neglecting others. By understanding and implementing control early on, project managers can identify potential resource bottlenecks and address them proactively, promoting a balanced and effective distribution of resources throughout the project lifecycle.
-
-Risk management is another critical aspect tied to project control. Large projects inherently come with an increased level of uncertainty and potential risks. Without a robust control framework, these risks may escalate, jeopardizing the project's success. Control mechanisms empower project managers to identify, assess, and mitigate risks systematically. By acknowledging and addressing risks early in the project, managers can make informed decisions, implement preventive measures, and ensure that the project stays resilient in the face of uncertainties.
-
-Additionally, effective control contributes to stakeholder satisfaction. In extensive projects, numerous stakeholders with varying interests and expectations are involved. Clear communication, transparency, and regular monitoring foster trust among stakeholders. When project managers have control mechanisms in place, they can provide stakeholders with accurate updates on project progress, potential challenges, and mitigation strategies. This transparency builds confidence and collaboration, aligning the project team and stakeholders toward shared objectives.
-
-% \section{Background Material}
+    \item  \textbf{Themes:}
+    PRINCE2 incorporates seven themes that are applied throughout the project. These themes are integrated into the processes to ensure a holistic approach. The themes include Business Case, Organization, Quality, Plans, Risk, Change, Progress.\cite{prince3}
+    
+\end{itemize}
 
 
 
 
+\subsection{Initiating and Planning Programs}
 
-% \subsection{A Subsection Sample}
-% Please note that the first paragraph of a section or subsection is
-% not indented. The first paragraph that follows a table, figure,
-% equation etc. does not need an indent, either.
-
-% Subsequent paragraphs, however, are indented.
-
-% \subsubsection{Sample Heading (Third Level)} Only two levels of
-% headings should be numbered. Lower level headings remain unnumbered;
-% they are formatted as run-in headings.
-
-% \paragraph{Sample Heading (Fourth Level)}
-% The contribution should contain no more than four levels of
-% headings. Table~\ref{tab1} gives a summary of all heading levels.
-
-% \begin{table}
-% \caption{Table captions should be placed above the
-% tables.}\label{tab1}
-% \begin{tabular}{|l|l|l|}
-% \hline
-% Heading level &  Example & Font size and style\\
-% \hline
-% Title (centered) &  {\Large\bfseries Lecture Notes} & 14 point, bold\\
-% 1st-level heading &  {\large\bfseries 1 Introduction} & 12 point, bold\\
-% 2nd-level heading & {\bfseries 2.1 Printing Area} & 10 point, bold\\
-% 3rd-level heading & {\bfseries Run-in Heading in Bold.} Text follows & 10 point, bold\\
-% 4th-level heading & {\itshape Lowest Level Heading.} Text follows & 10 point, italic\\
-% \hline
-% \end{tabular}
-% \end{table}
+Software projects often face complexity, and a common shortcoming in the industry is the lack of comprehensive project initiation. The success of a software development project hinges significantly on the quality of its initiation. The planning and initiating phases act as foundational pillars, establishing the project's groundwork. Planning involves defining objectives, scope, and deliverables with precision, analyzing requirements, allocating resources, and creating a structured timeline. This meticulous planning aims to mitigate risks and guide the team through the intricacies of software development.
 
 
-% \noindent Displayed equations are centered and set on a separate
-% line.
-% \begin{equation}
-% x + y = z
-% \end{equation}
-% Please try to avoid rasterized images for line-art diagrams and
-% schemas. Whenever possible, use vector graphics instead (see
-% Fig.~\ref{fig1}).
+\subsubsection{Evaluation Framework for Software Project Initiation}\mbox{}\\
+Evaluation framework was proposed in \cite{evaluate}. The framework is developed based on the relationships between the components of the system request. The evaluation firstly starts with each component and then the relationships
+between these components are calculated. Following are the key ideas of the framework. Figure \ref{fig:evalframework} shows the diagram of evaluation framework.
 
-% \begin{figure}
-% \includegraphics[width=\textwidth]{fig1.eps}
-% \caption{A figure caption is always placed below the illustration.
-% Please note that short captions are centered, while long ones are
-% justified by the macro package automatically.} \label{fig1}
-% \end{figure}
+\begin{itemize}[label=$\bullet$]
+    \item Identify the key elements of the software project request, including the project sponsor, business needs, business values, business requirements, and objectives.
+    \item Use the quality criteria to evaluate each element and its relationships with other elements.
+    \item Collect and analyze data to assess the effectiveness of the software project initiation and inform decision-making and improvement.
+\end{itemize}
 
-% \begin{theorem}
-% This is a sample theorem. The run-in heading is set in bold, while
-% the following text appears in italics. Definitions, lemmas,
-% propositions, and corollaries are styled the same way.
-% \end{theorem}
-% %
-% % the environments 'definition', 'lemma', 'proposition', 'corollary',
-% % 'remark', and 'example' are defined in the LLNCS documentclass as well.
-% %
-% \begin{proof}
-% Proofs, examples, and remarks have the initial word in italics,
-% while the following text appears in normal font.
-% \end{proof}
-% For citations of references, we prefer the use of square brackets
-% and consecutive numbers. Citations using labels or the author/year
-% convention are also acceptable. The following bibliography provides
-% a sample reference list with entries for journal
-% articles~\cite{ref_article1}, an LNCS chapter~\cite{ref_lncs1}, a
-% book~\cite{ref_book1}, proceedings without editors~\cite{ref_proc1},
-% and a homepage~\cite{ref_url1}. Multiple citations are grouped
-% \cite{ref_article1,ref_lncs1,ref_book1},
-% \cite{ref_article1,ref_book1,ref_proc1,ref_url1}.
-% %
-% % ---- Bibliography ----
-% %
-% % BibTeX users should specify bibliography style 'splncs04'.
-% % References will then be sorted and formatted in the correct style.
-% %
-% % \bibliographystyle{splncs04}
-% % \bibliography{mybibliography}
-%
+\begin{figure}
+    \centering
+    \includegraphics[width=0.8\linewidth]{EvaluationFramework.png}
+    \caption{Evaluation Framework}
+    \label{fig:evalframework}
+\end{figure}
+
+\subsubsection{Planning in Agile}
+\begin{itemize}[label=$\bullet$]
+    \item \textbf{Vision and Backlog Creation:}
+    Define the vision and goals of the project, clarifying the problem to be solved and the value to be delivered. Create a prioritized product backlog, breaking down features into user stories and aligning them with business priorities.\cite{agile}
+
+    \item \textbf{Team Formation and Sprint Planning:}
+    Form a cross-functional and self-organizing team, including a Scrum Master, Product Owner, and development team members.
+    Conduct sprint planning to select and commit to a subset of prioritized user stories for the first sprint, establishing a clear scope and timeline for initial delivery.
+    
+\end{itemize}
+
+\subsection{Managing Interactions and Communication}
+Effective communication at work places contributes significantly
+towards the performance of employees. It gives rise to enhanced
+job satisfaction, a good feeling of personal accomplishment and
+increased productivity.\cite{communication}
+
+\begin{itemize}[label=$\bullet$]
+    \item Effective communication helps in creating a relaxed atmosphere within the teams and hence can improve productivity.
+    \item Good project management practices, which include delegation of tasks, giving clear information about roles and responsibilities, intelligently dealing with the mistakes of team members and initiating informal events to boost up team morale are positive contributors towards strengthening employee relationships with managers and in effect increasing job satisfaction.\cite{comm4}
+    \item Vertical communication that includes both upward and downward communication has also been selected as a factor that influences job satisfaction extensively. Team members respond efficiently to project managers who provide them the opportunity to voice their concerns about work-related matters and in effect find a satisfying solution to those concerns.\cite{comm2}
+    \item Personal Feedback (positive or negative) impacts productivity and job satisfaction of workers. When employees are satisfied with the performance feedbacks they tend to produce work more effectively. Praise, recognition and information about performance helps in self-correction and motivation.\cite{comm3}
+    \item Formal communication involves formal work or project-related meetings. Every organization has its own set of standardized processes for formal communication within teams. These processes may include formal meeting calls through emails or memos, formal documentation of all meeting minutes, medium of language used during team meetings.
+
+\end{itemize}
+
+
+\section{Key Findings}
+
+\begin{enumerate}
+    \item \textbf{Strategic Decomposition:}
+        \begin{itemize}[label=$\bullet$]
+            \item Decomposition is pivotal for managing large-scale projects, fostering parallelism and efficient collaboration among teams.
+            \item Utilizing a Work Breakdown Structure (WBS) ensures a systematic breakdown, aiding in effective project planning, execution, and control.
+        \end{itemize}
+
+
+    \item \textbf{Initiating and Planning Programs:}
+        \begin{itemize}[label=$\bullet$]
+            \item The initiation phase sets the foundation for successful projects, aligning stakeholders, securing approvals, and defining overarching goals.
+            \item Agile planning involves creating a vision, forming cross-functional teams, and conducting sprint planning for iterative and adaptive project management.
+        \end{itemize}
+
+    \item \textbf{Communication Strategies:}
+        \begin{itemize}[label=$\bullet$]
+            \item Effective communication significantly impacts employee performance, job satisfaction, and overall productivity.
+            \item Personal feedback, both positive and negative, plays a crucial role in self-correction, motivation, and improved work effectiveness.
+        \end{itemize}
+\end{enumerate}
+
+\section{Conclusion}
+The report delves into the multifaceted challenge of establishing control in the initial stages of huge projects. Key findings emphasize the importance of strategic decomposition, evident in the systematic breakdown facilitated by the Work Breakdown Structure (WBS). The initiation and planning phases emerge as foundational pillars, crucial for aligning stakeholders, defining objectives, and fostering effective Agile planning.
+
+Furthermore, communication strategies are identified as a linchpin for successful project management, influencing employee satisfaction, productivity, and overall team dynamics. The report underscores the need for comprehensive project initiation, recognizing its pivotal role in determining project success. Overall, the findings provide a nuanced understanding of the intricacies involved in managing large-scale projects, offering actionable insights for project managers seeking to establish robust control mechanisms from the project's inception.
+
+
 \begin{thebibliography}{8}
-\bibitem{ref_article1}
-Author, F.: Article title. Journal \textbf{2}(5), 99--110 (2016)
 
-\bibitem{ref1}
-Tools and Techniques for Decomposing and Managing Complex Design Projects
-James L. Rogers
-Journal of Aircraft 1999 36:1, 266-274  \doi{10.2514/2.2434}
+\bibitem{evaluate}
+Anas Bassam Al-Badareen, Mohd Hasan Selamat, Marzanah A. Jabar, Jamilah Din, and Sherzod Turaev. 2011. An evaluation framework for software project initiation. In Proceedings of the 10th WSEAS international conference on System science and simulation in engineering (ICOSSSE'11). World Scientific and Engineering Academy and Society (WSEAS), Stevens Point, Wisconsin, USA, 219–222.
+\url{https://www.researchgate.net/publication/241194937_An_Evaluation_Framework_for_Software_Project_Initiation}
 
-\bibitem{ref2}
-Julie Stal-Le Cardinal, Franck Marle,
-Project: The just necessary structure to reach your goals,
+\bibitem{wbs}
+Shlomo Globerson,
+Impact of various work-breakdown structures on project conceptualization,
 International Journal of Project Management,
-Volume 24, Issue 3,
-2006,
-Pages 226-233,
+Volume 12, Issue 3,
+1994,
+Pages 165-171,
 ISSN 0263-7863,
-https://doi.org/10.1016/j.ijproman.2005.10.002.
+\url{https://doi.org/10.1016/0263-7863(94)90032-9}.
 
-\bibitem{ref_proc1}
-Author, A.-B.: Contribution title. In: 9th International Proceedings
-on Proceedings, pp. 1--2. Publisher, Location (2010)
+\bibitem{prince}
+"A New Project Risk Management Model based on Scrum Framework and Prince2 Methodology" International Journal of Advanced Computer Science and Applications, 9(4) \url{https://doi.org/10.14569/IJACSA.2018.090461}.
 
-\bibitem{ref_url1}
-LNCS Homepage, \url{http://www.springer.com/lncs}. Last accessed 4
-Oct 2017
+
+
+\bibitem{communication}
+Talha Javed, Manzil-e-Maqsood, and Qaiser S. Durrani. 2004. A survey to examine the effect of team communication on job satisfaction in software industry. SIGSOFT Softw. Eng. Notes 29, 2 (March 2004), 6. \url{https://doi.org/10.1145/979743.979760}
+
+\bibitem{prince2}
+Sandra Matos, Eurico Lopes,
+Prince2 or PMBOK – A Question of Choice,
+Procedia Technology,
+Volume 9,
+2013,
+Pages 787-794,
+ISSN 2212-0173,
+\url{https://doi.org/10.1016/j.protcy.2013.12.087}.
+
+\bibitem{agile}
+F. Hayat, A. U. Rehman, K. S. Arif, K. Wahab and M. Abbas, "The Influence of Agile Methodology (Scrum) on Software Project Management," 2019 20th IEEE/ACIS International Conference on Software Engineering, Artificial Intelligence, Networking and Parallel/Distributed Computing (SNPD), Toyama, Japan, 2019, pp. 145-149, doi: 10.1109/SNPD.2019.8935813.
+\url{https://ieeexplore.ieee.org/document/8935813}
+
+\bibitem{prince3}
+Sargeant, Richard, Hatcher, Caroline, Trigunarsyah, Bambang, Coffey, Vaughan, Kraatz, Judy (2010) Creating value in project management using PRINCE2. Queensland University of Technology (QUT), Australia
+\url{https://eprints.qut.edu.au/52853/1/Final_Report__v1.0e%5B1%5D.pdf}.
+
+\bibitem{comm2}
+McPhee, R. D. (1988). Vertical Communication Chains: Toward an Integrated Approach. Management Communication Quarterly, 1(4), 455-493. \url{https://doi.org/10.1177/0893318988001004002}.
+
+\bibitem{comm3}
+Colomo-Palacios, R., Casado-Lumbreras, C., Soto-Acosta, P. et al. Project managers in global software development teams: a study of the effects on productivity and performance. Software Qual J 22, 3–19 (2014). \url{https://doi.org/10.1007/s11219-012-9191-x}.
+
+\bibitem{comm4}
+J. M. Verner and W. M. Evanco, "In-house software development: what project management practices lead to success?," in IEEE Software, vol. 22, no. 1, pp. 86-93, Jan.-Feb. 2005,
+\url{https://doi.org/10.1109/MS.2005.12}.
+
 \end{thebibliography}
 \end{document}
